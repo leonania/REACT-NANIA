@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.listaNav{
+  font-size: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+li a{
+  padding: 10px;
+}
+h2{
+  display: flex;
+ position: absolute;
+ padding-top:20px;
+}
+
+
+.probandologo{
+  margin-bottom: 50px !important;
+}
