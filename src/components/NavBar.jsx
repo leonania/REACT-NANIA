@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-
+import CartWidget from './CartWidget'
 class NavBar extends React.Component{
     render(){
         const customStyle ={
@@ -19,6 +19,7 @@ class NavBar extends React.Component{
                     <li><a href='https://www.mercadolibre.com.ar/'>Mi cuenta</a></li>
                     <li><a href='https://www.mercadolibre.com.ar/'>Mis compras</a></li>
                     <li><a href='https://www.mercadolibre.com.ar/'>Carrito</a></li>
+                    <li> <CartWidget/> </li>
                 </ul>
            
             </div>
