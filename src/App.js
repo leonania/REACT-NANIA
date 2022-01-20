@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer'
+import ItemCount from './components/ItemCount'
+
 
 
 function App() {
@@ -13,12 +14,15 @@ function App() {
       <NavBar/>
     
       <header className="App-header">
-      <ItemListContainer/>
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <p>
+      <p>
           TIENDA ONLINE
         </p>
+      <ItemListContainer/>
+
+      <ItemCount/>
+    
+      
+        
         
         <a
           className="App-link"
